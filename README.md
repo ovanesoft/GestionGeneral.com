@@ -31,12 +31,23 @@ Sitio web corporativo que presenta los servicios integrales de Gestión General,
 ## Instalación
 
 ```bash
+# Clonar el repositorio
+git clone https://github.com/ovanesoft/GestionGeneral.com.git
+cd GestionGeneral.com
+
 # Instalar dependencias
 npm install
 
 # Ejecutar en desarrollo
 npm run dev
 ```
+
+## Scripts disponibles
+
+- `npm run dev` - Inicia el servidor de desarrollo
+- `npm run build` - Construye el proyecto para producción
+- `npm run preview` - Previsualiza la build de producción
+- `npm run lint` - Ejecuta el linter de código
 
 ## Contacto
 
