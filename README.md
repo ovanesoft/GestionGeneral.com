@@ -2,7 +2,7 @@
 
 Landing page para Emprendimientos Generales SAS - Gestión General.
 
-🌐 **Sitio web:** https://ovanesoft.github.io/GestionGeneral.com/
+🌐 **Sitio web:** https://gestiongeneral.com
 
 ## Descripción
 
@@ -57,7 +57,7 @@ El sitio se despliega automáticamente en GitHub Pages cada vez que se hace push
 
 - **Build automático:** GitHub Actions compila el proyecto
 - **Deploy automático:** Se actualiza el sitio web en GitHub Pages
-- **URL del sitio:** https://ovanesoft.github.io/GestionGeneral.com/
+- **URL del sitio:** https://gestiongeneral.com
 
 ## Contacto
 
