@@ -2,6 +2,8 @@
 
 Landing page para Emprendimientos Generales SAS - Gestión General.
 
+🌐 **Sitio web:** https://ovanesoft.github.io/GestionGeneral.com/
+
 ## Descripción
 
 Sitio web corporativo que presenta los servicios integrales de Gestión General, incluyendo:
@@ -48,6 +50,14 @@ npm run dev
 - `npm run build` - Construye el proyecto para producción
 - `npm run preview` - Previsualiza la build de producción
 - `npm run lint` - Ejecuta el linter de código
+
+## Deployment Automático
+
+El sitio se despliega automáticamente en GitHub Pages cada vez que se hace push a la rama `main`.
+
+- **Build automático:** GitHub Actions compila el proyecto
+- **Deploy automático:** Se actualiza el sitio web en GitHub Pages
+- **URL del sitio:** https://ovanesoft.github.io/GestionGeneral.com/
 
 ## Contacto
 
