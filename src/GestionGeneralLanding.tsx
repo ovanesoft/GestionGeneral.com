@@ -1,5 +1,5 @@
-import React, { useState } from 'react';
-import { Truck, Package, Globe, FileText, Code, Scale, MapPin, Award, Users, Clock, ArrowRight, Menu, X, CheckCircle, Building, Ship, Briefcase } from 'lucide-react';
+import { useState } from 'react';
+import { Truck, Package, Globe, Code, Scale, MapPin, Award, Users, Clock, ArrowRight, Menu, X, CheckCircle, Building, Ship, Briefcase } from 'lucide-react';
 
 export default function GestionGeneralLanding() {
   const [menuOpen, setMenuOpen] = useState(false);
@@ -363,7 +363,7 @@ export default function GestionGeneralLanding() {
             <div className="mb-6">
               <label className="block text-gray-700 font-semibold mb-2">Mensaje</label>
               <textarea 
-                rows="4" 
+                rows={4} 
                 value={formData.mensaje}
                 onChange={(e) => setFormData({...formData, mensaje: e.target.value})}
                 className="w-full px-4 py-3 border border-gray-300 rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-600 text-gray-900"
